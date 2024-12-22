@@ -13,7 +13,11 @@ export const styles = StyleSheet.create({
     },
     container: {
         flex: 1,
-        backgroundColor: "#fff"
+        backgroundColor: "#FFF",
+        justifyContent:"center",
+        alignItems:"center",
+        gap:20,
+        padding:10,
     },
     title: {
         fontSize: 22,
@@ -33,8 +37,11 @@ export const styles = StyleSheet.create({
         borderRadius: 10
     },
     menuServiceOrders: {
+        flex:1,
         width: "100%",
-        height: 80,
-        backgroundColor: "#FFF"
+        height: 150,
+        backgroundColor: "red",
+        borderColor:"#000",
+        borderStyle:"solid",
     }
 })
