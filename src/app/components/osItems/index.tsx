@@ -1,6 +1,6 @@
 import { Text, TouchableOpacity, View } from "react-native";
 
-type OS{
+type OS = {
     id:string
     endereço:string,
     numero:number
